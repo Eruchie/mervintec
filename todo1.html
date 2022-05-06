@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>MervinTEC</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        padding: 25px 300px;
+        background-color: darkgray;
+        font-size: 14px;
+      }
+      .topheader {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        column-gap: 5px;
+      }
+      .secondrow {
+        display: grid;
+        grid-template-columns: 200px;
+        margin-left: 575px;
+        column-gap: 5px;
+        text-align: center;
+      }
+
+      .secondrow img {
+        width: 25px;
+      }
+      .sidepad {
+        padding-top: 300px;
+        padding-bottom: 0;
+        background-image: url(images/green.webp);
+        background-color: cornflowerblue;
+        height: 350px;
+        color: white;
+        font-weight: bold;
+        border-top-right-radius: 50px;
+      }
+      .sidemenu {
+        text-align: center;
+        margin-top: 25px;
+        cursor: pointer;
+      }
+
+      .sidemenu:hover {
+        font-size: x-large;
+      }
+
+      .mypic img {
+        position: absolute;
+        border-radius: 50%;
+        width: 150px;
+        top: 95px;
+        left: 334px;
+      }
+      .myemail {
+        position: absolute;
+        border-radius: 15%;
+        top: 230px;
+        left: 1117px;
+        opacity: 0;
+      }
+      .display img {
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 755px;
+        height: 200px;
+      }
+      .align {
+        display: inline-block;
+        vertical-align: right;
+        padding-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+
+      .align:hover {
+        opacity: 0.6;
+      }
+      .thirdrow {
+        display: grid;
+        grid-template-columns: 460px 256px;
+        column-gap: 28px;
+        text-align: justify;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .todo1 {
+        display: grid;
+        grid-template-columns:  233px 233px 233px;
+        column-gap: 15px;
+        text-align: justify;
+        margin-left: 10px;
+        margin-top: 10px;
+        row-gap: 15px;
+        height: 150px;
+        border-radius: 10px;
+        padding-left: 5px;
+        
+      }
+      .todo1 img {
+        width: 100%;
+        margin: 5px 10px 0 2px;
+        height: 100px;
+        border-radius: 15px;
+      }
+      .sections {
+        display: grid;
+        grid-template-rows: 200px;
+        row-gap: 10px;
+        height: 200px;
+        text-align: center;
+        font-size: 12px;
+      }
+
+      .border-box {
+        border: solid 4px #218334;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.89);
+        border-radius: 10px;
+        padding-left: 5px;
+      }
+
+      .border-box img {
+        width: 100%;
+        margin: 5px 10px 0 -3px;
+        height: 160px;
+        border-radius: 15px;
+      }
+      footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 11px;
+        padding-left: 120px;
+        width: 950px;
+      }
+      .arrow{
+        display: inline-block;
+        padding-left: 200px;
+        padding-top: 180px;
+      }
+    
+     .arrow img{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topheader">
+      <div>
+        <div class="sidepad">
+          <div class="mypic"><img src="images/Mervin02.JPG" /></div>
+          <div class="sidemenu">Home</div>
+          <div class="sidemenu">About</div>
+          <div class="sidemenu">To Dos</div>
+          <div class="sidemenu">Affiliates</div>
+          <div class="sidemenu">Contact</div>
+        </div>
+      </div>
+      <div>
+        <div class="display">
+          <img src="images/green.webp" />
+        </div>
+        <div class="secondrow">
+          <div></div>
+          <div>
+            <div class="align">
+              <a href="mailto:aufora@gmail.com"
+                ><img src="icons/email.png"
+              /></a>
+            </div>
+            <div class="align">
+              <a href="https://wa.me/2348055570782"
+                ><img src="icons/WhatsApp.png"
+              /></a>
+            </div>
+            <div class="align"><img src="icons/linkedIn.png" /></div>
+            <div class="align"><img src="icons/gitHub.png" /></div>
+          </div>
+        </div>
+        <div class="todo1">
+          <div style="padding-left:5px; padding-right:8px; box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.89); border: gray 1px solid;">
+            <img style="padding-bottom: 28px;" src="images/howtodo2.jpg" />
+          </div>
+          <div style="padding-left:5px; padding-right:8px; box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.89); border: gray 1px solid;">
+            <img style="padding-bottom: 28px;" src="images/howtodo2.jpg" />
+          </div>
+          <div style="padding-left:5px; padding-right:8px; box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.89); border: gray 1px solid;">
+            <img style="padding-bottom: 28px;" src="images/howtodo2.jpg" />
+          </div>
+          <div style="padding-left:5px; padding-right:8px; box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.89); border: gray 1px solid;">
+            <img style="padding-bottom: 28px;" src="images/howtodo2.jpg" />
+          </div>
+          <div style="padding-left:5px; padding-right:8px; box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.89); border: gray 1px solid;">
+            <img style="padding-bottom: 28px;" src="images/howtodo2.jpg" />
+          </div>
+          <div style="padding-left:5px; padding-right:8px; box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.89); border: gray 1px solid;">
+            <img style="padding-bottom: 28px;" src="images/howtodo2.jpg" />
+          </div>
+      </div>
+      <div>
+        <div class="arrow"><img style="width: 42px;" src="icons/left.png"></div>
+        <div class="arrow"><img style="width: 42px;" src="icons/right.png"></div>
+      </div>
+    </div>
+    <div class="myemail">Email</div>
+            <footer>© 2022 MervinTec Limited. All Rights Reserved.</footer>
+  </body>
+</html>
